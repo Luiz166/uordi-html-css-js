@@ -6,6 +6,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { styles } = require('@ckeditor/ckeditor5-dev-utils');
 
 module.exports = {
+    mode: 'development',
     // https://webpack.js.org/configuration/entry-context/
     entry: './src/app.js',
 
