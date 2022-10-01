@@ -53,7 +53,7 @@ button{
     border: none;
     color: white;
     background-color: transparent;
-    width: 2rem;
+    width: 3rem;
     cursor: pointer;
 }
 button:hover{
@@ -62,7 +62,7 @@ button:hover{
 .transfer{
     width: 10vw;
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 3rem 3rem 3rem;
 }
 #paste{
     grid-column: 1 / span 2;
@@ -70,7 +70,7 @@ button:hover{
 }
 .font{
     display: grid;
-    grid-template-columns:  3rem 3rem 3rem 3rem 3rem 3rem 3rem 3rem 3rem 3rem;
+    grid-template-columns:  1.5rem 1.5rem 1.5rem 1.5rem 1.5rem 1.5rem 1.5rem 3rem;
     width: 20vw;
 }
 #font_family{
@@ -80,37 +80,48 @@ button:hover{
 #font_size{
     grid-column: 6 / span 10;
     grid-row: 1 / span 1;
+    width: 3rem;
 }
 #bold{
     grid-row: 2 / span 4;
     grid-column: 1 / span 2;
     font-weight: 800;
+    width: 1.5rem;
 }
 #italic{
     grid-column: 2 / span 3;
     grid-row: 2 / span 4 ;
+    width: 1.5rem;
 }
 #underline{
     grid-column: 3 / span 4;
     grid-row: 2 / span 4;
+    width: 1.5rem;
+    text-decoration: underline;
 }
 #strikethrough{
     grid-column: 4 / span 5;
     grid-row: 2 / span 4;
+    width: 1.5rem;
+    text-decoration: line-through;
 }
 #subscribed{
     grid-column: 5 / span 6;
     grid-row: 2 / span 4;
+    width: 1.5rem;
 }
 #overwritten{
     grid-column: 6 / span 7;
     grid-row: 2 / span 4;
+    width: 1.5rem;
 }
 #bg_color{
     grid-column: 7 / span 8;
     grid-row: 2 / span 4;
+    width: 1.5rem;
 }
 #font_color{
-    grid-column: 9 / span 10;
+    grid-column: 8 / span 9;
     grid-row: 2 / span 4;
+    width: 3rem;
 }
