@@ -6,19 +6,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>Palavra</title>
+    <title>Uordi</title>
 </head>
 
 <body>
     <header>
         <button id="home">Home</button>
     </header>
-
+    <section class="second_tab">
+        <div class="transfer">
+            <button id="paste">Colar</button>
+            <button id="cut_out">Recortar</button>
+            <button id="copy"><i class="fa-regular fa-copy"></i></button>
+        </div>
+        <div class="font">
+            <select id="font_family">
+                <option value="Arial">Arial</option>
+                <option value="Roboto">Roboto</option>
+                <option value="Sans-Serif">Sans-serif</option>
+            </select>
+            <select id="font_Size">
+                <option value="12">12</option>
+                <option value="12">14</option>
+                <option value="12">16</option>
+            </select>
+            <button id="bold">N</button>
+            <button id="italic">I</button>
+            <button id="underline">S</button>
+            <button id="strikethrough">ab</button>
+            <button id="subscribed">x²</button>
+            <button id="overwritten">x2</button>
+            <button id="bg_color">bg</button>
+            <button id="font_color">fg</button>
+        </div>
+    </section>
     
     <!-- <div id="editor" class="ck-content"></div>
     <button id="bold">Negritos</button> -->
 
-
+    <script src="https://kit.fontawesome.com/bdc645c07d.js" crossorigin="anonymous"></script>
     <script src="https://cdn.ckeditor.com/ckeditor5/35.1.0/classic/ckeditor.js"></script>
     <script src="js/index.js"></script>
     <script>
