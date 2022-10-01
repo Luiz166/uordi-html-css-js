@@ -54,6 +54,10 @@ button{
     color: white;
     background-color: transparent;
     width: 2rem;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #a1a1a1;
 }
 .transfer{
     width: 10vw;
@@ -66,23 +70,21 @@ button{
 }
 .font{
     display: grid;
-    grid-template-columns:  3rem 3rem 3rem 3rem 3rem 3rem 3rem 3rem;
+    grid-template-columns:  3rem 3rem 3rem 3rem 3rem 3rem 3rem 3rem 3rem 3rem;
     width: 20vw;
 }
-#font_family, #font_size{
-    width: 5rem;
-}
 #font_family{
-    grid-column: 1 / span 3;
-    grid-row: 1 / span 2;
+    grid-column: 1 / span 5;
+    grid-row: 1 / span 1;
 }
 #font_size{
-    grid-column: 3 / span 4;
-    grid-row: 2 / span 2;
+    grid-column: 6 / span 10;
+    grid-row: 1 / span 1;
 }
 #bold{
     grid-row: 2 / span 4;
     grid-column: 1 / span 2;
+    font-weight: 800;
 }
 #italic{
     grid-column: 2 / span 3;
@@ -93,4 +95,22 @@ button{
     grid-row: 2 / span 4;
 }
 #strikethrough{
+    grid-column: 4 / span 5;
+    grid-row: 2 / span 4;
+}
+#subscribed{
+    grid-column: 5 / span 6;
+    grid-row: 2 / span 4;
+}
+#overwritten{
+    grid-column: 6 / span 7;
+    grid-row: 2 / span 4;
+}
+#bg_color{
+    grid-column: 7 / span 8;
+    grid-row: 2 / span 4;
+}
+#font_color{
+    grid-column: 9 / span 10;
+    grid-row: 2 / span 4;
 }
