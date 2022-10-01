@@ -10,15 +10,7 @@
 </head>
 
 <body>
-    <div class="document-editor">
-        <div class="document-editor__toolbar"></div>
-        <div class="document-editor__editable-container">
-            <div class="document-editor__editable">
-                <p>The initial editor data.</p>
-            </div>
-        </div>
-    </div>
-
+    
     <header>
         <button id="home">Home</button>
     </header>
@@ -34,7 +26,7 @@
                 <option value="Roboto">Roboto</option>
                 <option value="Sans-Serif">Sans-serif</option>
             </select>
-            <select id="font_Size">
+            <select id="font_size">
                 <option value="12">12</option>
                 <option value="12">14</option>
                 <option value="12">16</option>
@@ -47,18 +39,27 @@
             <button id="overwritten"><i class="fa-solid fa-superscript"></i></button>
             <button id="bg_color"><i class="fa-solid fa-brush"></i></button>
             <select id="font_color" role="listitem">
+                <option value="" disabled selected hidden>A</option>
                 <option value="black"></option>
                 <option value="white"></option>
                 <option value="red"></option>
             </select>
         </div>
     </section>
+    <div class="document-editor">
+        <div class="document-editor__toolbar"></div>
+        <div class="document-editor__editable-container">
+            <div class="document-editor__editable">
+                <p>The initial editor data.</p>
+            </div>
+        </div>
+    </div>
     
     <!-- <div id="editor" class="ck-content"></div>
-    <button id="bold">Negritos</button> -->
-   
-
-    <script src="https://kit.fontawesome.com/bdc645c07d.js" crossorigin="anonymous"></script>
-</body>
-
-</html>
+        <button id="bold">Negritos</button> -->
+        
+        
+        <script src="https://kit.fontawesome.com/bdc645c07d.js" crossorigin="anonymous"></script>
+    </body>
+    
+    </html>
