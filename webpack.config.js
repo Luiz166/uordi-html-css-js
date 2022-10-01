@@ -55,6 +55,17 @@ module.exports = {
             template: './src/index.html',
         }),
     ],
+    
+    devServer: {
+        client: {
+            overlay: true,
+            progress: true,
+        },
+        open: true,
+        compress: true,
+        port: 9000,
+    },
+
     // Useful for debugging.
     devtool: 'source-map',
 
