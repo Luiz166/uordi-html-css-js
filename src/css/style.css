@@ -41,3 +41,56 @@ body, html {
     /* Center the "page". */
     margin: 0 auto;
 }
+:root{
+    --bg-black: #363535;
+}
+header, .second_tab{
+    width: 100vw;
+    background-color: var(--bg-black);
+    display: flex;
+}
+button{
+    border: none;
+    color: white;
+    background-color: transparent;
+    width: 2rem;
+}
+.transfer{
+    width: 10vw;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+#paste{
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 4;
+}
+.font{
+    display: grid;
+    grid-template-columns:  3rem 3rem 3rem 3rem 3rem 3rem 3rem 3rem;
+    width: 20vw;
+}
+#font_family, #font_size{
+    width: 5rem;
+}
+#font_family{
+    grid-column: 1 / span 3;
+    grid-row: 1 / span 2;
+}
+#font_size{
+    grid-column: 3 / span 4;
+    grid-row: 2 / span 2;
+}
+#bold{
+    grid-row: 2 / span 4;
+    grid-column: 1 / span 2;
+}
+#italic{
+    grid-column: 2 / span 3;
+    grid-row: 2 / span 4 ;
+}
+#underline{
+    grid-column: 3 / span 4;
+    grid-row: 2 / span 4;
+}
+#strikethrough{
+}
