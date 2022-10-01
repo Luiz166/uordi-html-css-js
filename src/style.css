@@ -9,4 +9,9 @@ body{
 }
 .second_tab .transfer{
     display: grid;
+    gap: 1rem .5rem;
+}
+#paste{
+    grid-column: 1/2;
+    grid-row: 1/1;
 }
