@@ -18,6 +18,7 @@
             </div>
         </div>
     </div>
+
     <header>
         <button id="home">Home</button>
     </header>
@@ -55,24 +56,7 @@
     
     <!-- <div id="editor" class="ck-content"></div>
     <button id="bold">Negritos</button> -->
-
-    <script src="https://kit.fontawesome.com/bdc645c07d.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.ckeditor.com/ckeditor5/35.1.0/classic/ckeditor.js"></script>
-    <script src="app.js"></script>
-    <script>
-        ClassicEditor
-            .create(document.querySelector('#editor'))
-            .then(editor => {
-                console.log(editor.commands);
-
-                document.querySelector("#bold").addEventListener('click', function(){
-                    editor.execute("bold");
-                })
-            })
-            .catch(error => {
-                console.error(error);
-            });
-    </script>
+   
 </body>
 
 </html>
